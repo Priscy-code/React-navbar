@@ -1,0 +1,30 @@
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding: 15px 7%;
+}
+.home-text h1{
+    color: aliceblue;
+    font-weight: bolds;
+    font-size: 30px;
+}
+.home-text h2{
+    font-weight: normal;
+    font-size: 25px;
+}
+.home-text button{
+    border-radius: 10px;
+    color: rgb(133, 114, 10);
+    width: 100px;
+    margin-top:30px ;
+    background: white;
+    height: 30px;
+}
+
+ .home-img{
+    width: 500px;
+    margin-left: 100px;
+ }
+ 

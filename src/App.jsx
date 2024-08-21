@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Navbar from './components/Navbar/navbar'
+import Home from './components/home/home'
 
 const App = () => {
 
@@ -8,6 +9,7 @@ const App = () => {
     <div className='container'>
 
       <Navbar theme={theme} setTheme={setTheme}/>
+      <Home/>
 
     </div>
   )
